@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title> html checkpoint</title>
+        <link rel="stylesheet" href="checkpoint.css">
     </head>
     <body>
         <nav>
@@ -16,14 +17,19 @@
                 <li><a href="#contact">contact</a></li>
             
             </ul>
+            <!-- <p>home</p>
+            <p> about</p>
+            <p>work</p>
+            <p>resume</p>
+            <p>contact</p> -->
         </nav>
         <section>
             <h1> HOME</h1>
-            This is the html checkpoint.
+           <p> This is the html checkpoint.</p>
         </section>
         <section>
             <h2>ABOUT</h2>
-            This is a checkpoint to show i understand the html section of the course
+            <p>This is a checkpoint to show i understand the html section of the course</p>
             </section>
             <section>
             <h3>WORK</h3>
@@ -33,7 +39,7 @@
             <h4>RESUME</h4> 
         
             <label for="resume">resume:</label>
-            <textarea rows="4" column="30" name="resume" placeholder="resume"></textarea>
+            <textarea rows="4" column="30" name="resume" id ="resume" placeholder="resume"></textarea>
             <p>Choose the certificate:</p>
             <select name="certificate" placeholder="certificate">certificate
             <option value="wassce">WASSCE</option>
@@ -44,19 +50,19 @@
             <section>
             <h5> CONTACT</h5>
             <form>
-                <label for="email">email:</label>
-                <input type="email" name="email" placeholder="email">
-                <label for="password">password:</label>
-                <input type="password" name="password" placeholder="password">
-                <label for="number">number:</label>
-                <input type="number" name="number" placeholder="number">
+                <label for="email"><p>email:</p></label>
+                <input type="email" id="email" name="email" placeholder="email">
+                <label for="password"><p>password:</p></label>
+                <input type="password" id="password" name="password" placeholder="password">
+                <label for="number"><p>number:</p></label>
+                <input type="number" id="number" name="number" placeholder="number">
                 <button> submit</button>
             </form>
         </section>
-        <section>
+        
         <footer> 
-            Our office is located at 230 herbert maucaulay way, you will be contacted for your interview.
+           <div id="footnote">company name. copyright &copy; 2010-2020.</div> 
         </footer>
-        </section>
+        
     </body>
 </html>

@@ -1,0 +1,31 @@
+body {
+background-color: #dae5e4;
+
+
+}
+li {
+    display: inline;
+    padding: 6%;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+}
+section {
+    text-transform: uppercase;
+    color:crimson;
+}
+p{
+    color:black;
+}
+label{
+    display:block;
+    font-weight: bold;
+    width:300px;
+}
+#footnote{
+    height: 85px;
+    width:auto;
+    background-color: antiquewhite;
+}
